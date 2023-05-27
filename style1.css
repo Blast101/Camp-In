@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.not_active {
+    text-decoration: none;
+}
+.container
+{
+    background: yellow;
+    /* border: 2px sloid black; */
+    /* width:1500px; */
+     /* height:700px; */
+    margin: 3px 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;    
+    min-width: 1000px;
+}
+
+.sb
+{
+    /* border:2px solid black; */
+    margin:2px 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    /* width: 500px; */
+    justify-content: center;
+    display: flex; 
+}
+.sb1 , .btn
+{
+    border:2px solid black;
+    margin:5px 5px;
+    /* align-self: center; */
+    border-radius: 5px;
+    width: 500px;
+}
+.btn{
+    width:50px;
+}
+
+.pages
+{
+ 
+    border:2px solid black;
+    margin:5px 20px;  
+    display: flex;
+    border-radius: 5px;
+    min-width:800px ;
+    height: 700px;
+}
+
+.btns
+{
+    border: 2px solid black;
+    margin:5px;
+    border-radius:5px;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+
+}
+
+.btn1, .btn2, .btn3, .btn4
+{
+    border: 2px solid black;
+    margin:100px 10px ;
+    border-radius:5px;
+}
+
+
+#box_test1 ,#box_test2, #box_test3,#box_test4
+{
+    /* max-width: 800px; */
+    height: 680px;
+    border:2px solid black;
+    margin:5px 5px;
+    /* order: 1;  */
+    flex-grow: 2;
+    /* flex-basis: 0; */
+    /* display: flex; */
+    align-self: center;
+    /* flex-wrap: wrap; */
+    /* flex-shrink: 0; */
+    /* align-content: start; */
+    min-width: 500px;
+    border-radius: 5px;
+}
+.sp 
+{
+    width: 250px;
+    /* height: 500px; */
+    border:2px solid black;
+    margin:5px 5px;
+    flex-grow: 0; 
+    /* text-align: center; */
+    /* justify-content: cenetr; */
+    align-items: center;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+/* .tabs
+{
+    border:2px solid black;
+    width: 150px;
+    height: 150px;
+    margin:5px 5px;
+    align-self: center;
+    text-align: center;
+
+} */
+
+.sb2
+{
+    border:2px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stabs
+{
+    border:2px solid black;
+    margin:5px 5px;
+    /* width: 100px; */
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
